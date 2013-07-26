@@ -2,8 +2,10 @@
 set nocompatible
 
 "Включаем распознавание типов файлов и типо-специфичные плагины:
-filetype on
-filetype plugin on
+filetype off
+
+filetype plugin indent on
+syntax on
 
 "Настройки табов для Python, согласно рекоммендациям
 set tabstop=4
@@ -24,3 +26,4 @@ set t_Co=256
 :colorscheme wombat256mod
 syntax on "Включить подсветку синтаксиса
 set nu
+set laststatus=2
