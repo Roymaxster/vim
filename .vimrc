@@ -21,7 +21,7 @@ let python_highlight_all = 1
 "Нужно во многих терминалах, например в gnome-terminal
 set t_Co=256
 
-
+autocmd vimenter * NERDTree
 
 :colorscheme wombat256mod
 syntax on "Включить подсветку синтаксиса
